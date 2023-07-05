@@ -20,4 +20,8 @@ export class PlanBoxComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClick() {
+    window.location.href = 'http://localhost:4200/scaffold-app/auth'
+  }
+
 }

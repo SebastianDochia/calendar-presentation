@@ -8,6 +8,6 @@
   <mat-card-content>
     <p class="description">{{ description }}</p>
     <h2>{{ price }}</h2>
-    <button mat-raised-button color="primary" [disabled]="isCommingSoon">BUY NOW</button>
+    <button mat-raised-button color="primary" [disabled]="isCommingSoon" (click)="onClick()">BUY NOW</button>
   </mat-card-content>
 </mat-card>
